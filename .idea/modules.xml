@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CAS-SSO.iml" filepath="$PROJECT_DIR$/.idea/CAS-SSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sos-config/sos-config.iml" filepath="$PROJECT_DIR$/sos-config/sos-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server/sso-server.iml" filepath="$PROJECT_DIR$/sso-server/sso-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-spring-pom/sso-spring-pom.iml" filepath="$PROJECT_DIR$/sso-spring-pom/sso-spring-pom.iml" />
     </modules>
   </component>
 </project>

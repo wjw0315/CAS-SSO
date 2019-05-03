@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sos-config" />
         <module name="sso-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CAS-SSO" target="1.8" />
+      <module name="sos-config" target="1.8" />
       <module name="sso-server" target="1.8" />
+      <module name="sso-spring-pom" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

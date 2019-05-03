@@ -12,6 +12,8 @@
       <list>
         <option value="$PROJECT_DIR$/sso-server/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-spring-pom/pom.xml" />
       </list>
     </option>
   </component>
