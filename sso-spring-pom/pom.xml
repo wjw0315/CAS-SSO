@@ -75,35 +75,17 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--为了加快速度，修改成国内的代理-->
+    <!--配置仓库-->
     <repositories>
         <repository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <id>maven2-release</id>
-            <url>http://uk.maven.org/maven2/</url>
-        </repository>
-        <repository>
+            <id>aliRepository</id>
+            <name>aliRepository</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
             <snapshots>
-                <enabled>true</enabled>
-                <!--快照版本库两个小时检查更新一遍-->
-                <updatePolicy>interval:120</updatePolicy>
+                <enabled>false</enabled>
             </snapshots>
-            <id>oss-snapshots</id>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
         </repository>
     </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <id>maven2-release</id>
-            <url>http://uk.maven.org/maven2/</url>
-        </pluginRepository>
-    </pluginRepositories>
 
     <description>由于cas不能直接依赖spring-boot，所以其他项目统在此依赖</description>
 </project>
